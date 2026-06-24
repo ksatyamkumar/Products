@@ -1,22 +1,58 @@
 # Product Browser
 
+A scalable product browsing application built with the MERN stack.
+
 ## Features
 
 - Cursor-based pagination
 - Category filtering
-- MongoDB Atlas Database
-- 200,000 seeded products
-- Compound indexing
+- Handles 200,000+ products efficiently
+- MongoDB compound indexes
+- Fast queries using lean()
 - React frontend
 - Express backend
+- MongoDB Atlas database
+
+---
 
 ## Tech Stack
 
+### Frontend
 - React
+- Vite
+- Axios
+
+### Backend
 - Node.js
-- Express
+- Express.js
+
+### Database
 - MongoDB
 - Mongoose
+
+### Deployment
+- Frontend: Vercel
+- Backend: Render
+- Database: MongoDB Atlas
+
+---
+
+## Project Structure
+
+```text
+Product/
+│
+├── backend/
+│   ├── package.json
+│   ├── server.js
+│   └── ...
+│
+└── frontend/
+    ├── package.json
+    ├── src/
+    └── ...
+```
+
 
 ## API Endpoints
 
